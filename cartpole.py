@@ -38,6 +38,6 @@ target_model_update=1e-2, policy=policy)
 dqn.compile(Adam(lr=1e-3), metrics=['mae'])
 
 # Okay, now it's time to learn something! We visualize the training here for show, but this slows down training quite a lot.
-dqn.fit(env, nb_steps=5000, visualize=True, verbose=2)
+dqn.fit(env, nb_steps=10000, visualize=True, verbose=2)
 
 dqn.test(env, nb_episodes=50, visualize=True)
