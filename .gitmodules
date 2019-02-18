@@ -4,3 +4,6 @@
 [submodule "basic_reinforcement_learning"]
 	path = basic_reinforcement_learning
 	url = https://github.com/vmayoral/basic_reinforcement_learning
+[submodule "awesome-rl"]
+	path = awesome-rl
+	url = git@github.com:aikorea/awesome-rl.git
